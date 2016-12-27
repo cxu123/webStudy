@@ -21,6 +21,7 @@ public class ItemServiceImpl implements ItemService{
 	}
 
 	public void addItem(Item item) throws Exception {
+		//添加item		
 		itemMapper.insertSelective(item);
 	}
 
